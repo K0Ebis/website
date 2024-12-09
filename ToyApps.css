@@ -163,6 +163,5 @@ form {
 }
 iframe {
   aspect-ratio: 1/1;
-  height: 500px;
-  margin-left: 500px;
+  weight:100%;
 }
