@@ -159,9 +159,10 @@ form {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
 }
 iframe {
   aspect-ratio: 1/1;
-  weight:100%;
+  max-width: 500px;
+  width: 100%;
 }
