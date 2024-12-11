@@ -2,7 +2,26 @@
 // element.textContent = "Hello World!!"; // 内容を追加
 // document.body.appendChild(element);
 "use strict";
+// 近状ノート
+const noteList = [
+  "初イベントやります！『春の桜フェアー！』",
+  "季節の変化、模様替え。",
+  "今日は晴れ、お店大繁盛！！！",
+  "本日開店！皆さんよろしくね！！",
+];
+const ul = document.getElementById("latest");
 
+// const events = noteList;
+// 偶数を抽出
+//   .filter((note) => num % 2 === 0)
+//   .map((even) => "・" + even);
+// 「No.」を付加
+
+for (const events of noteList) {
+  const li = document.createElement("li");
+  li.textContent = events;
+  ul.appendChild(li);
+}
 const FulList = [
   { place: "城下町", MAXnum: 12, percentage: "70" },
   { place: "火山", MAXnum: 8, percentage: "50" },
