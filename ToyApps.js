@@ -22,6 +22,8 @@ for (const events of noteList) {
   li.textContent = events;
   ul.appendChild(li);
 }
+
+// 混雑報告
 const FulList = [
   { place: "城下町", MAXnum: 12, percentage: "70" },
   { place: "火山", MAXnum: 8, percentage: "50" },
