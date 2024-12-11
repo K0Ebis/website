@@ -52,8 +52,10 @@ a {
   width: 100%;
 
   /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
   font-weight: bold;
   align-items: center;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 100px;
@@ -82,7 +84,6 @@ a {
   align-items: center;
   font-size: 30px;
   font-family: "Kaisei Opti", sans-serif;
-  font-weight: bold;
   padding-top: 8px;
 
   height: 80px;
@@ -105,7 +106,7 @@ h1 {
   text-align: center;
   background-color: white;
   font-size: 3rem;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "DotGothic16", sans-serif;
   color: black;
 }
 .news {
@@ -117,7 +118,7 @@ h1 {
   display: flex;
 }
 .menu2 {
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
   width: 100%;
@@ -129,14 +130,20 @@ h1 {
   color: antiquewhite;
   align-items: center;
   grid-row: 1/3;
+  /* margin: 10px; */
 }
 .item img {
-   border: 5px;
+  /* margin-right: 20px; */
+
+  border: 5px;
   height: 20rem;
   width: 100%;
   object-fit: cover;
   list-style: none;
   grid-row: 1/3;
+  /* float: left;
+  align-content: center;
+  text-align: center; */
 }
 
 form {
@@ -154,4 +161,14 @@ iframe {
   aspect-ratio: 1/1;
   max-width: 500px;
   width: 100%;
+}
+.contact {
+  font-size: 3rem;
+  font-family: "DotGothic16", sans-serif;
+}
+.bizz {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
